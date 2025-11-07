@@ -1,0 +1,45 @@
+{
+  "name": "number-talk-client",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .tsx,.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.59.18",
+    "axios": "^1.7.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.53.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+  "@hookform/resolvers": "^3.9.0",
+  "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+  "@typescript-eslint/eslint-plugin": "^8.8.1",
+  "@typescript-eslint/parser": "^8.8.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.9.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.12",
+  "typescript-eslint": "^8.8.1",
+    "jsdom": "^25.0.1",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.8",
+    "vitest": "^2.1.4"
+  }
+}
